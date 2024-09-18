@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D3841CCA2C9B05CE00867749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3841CA82C9B05CC00867749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3841CAF2C9B05CC00867749;
+			remoteInfo = funcAppMeyer;
+		};
+		D3841CD42C9B05CE00867749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3841CA82C9B05CC00867749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3841CAF2C9B05CC00867749;
+			remoteInfo = funcAppMeyer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3841CB02C9B05CC00867749 /* funcAppMeyer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = funcAppMeyer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3841CC92C9B05CE00867749 /* funcAppMeyerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = funcAppMeyerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3841CD32C9B05CE00867749 /* funcAppMeyerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = funcAppMeyerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D3841CDB2C9B05CE00867749 /* Exceptions for "funcAppMeyer" folder in "funcAppMeyer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D3841CAF2C9B05CC00867749 /* funcAppMeyer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D3841CB22C9B05CC00867749 /* funcAppMeyer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D3841CDB2C9B05CE00867749 /* Exceptions for "funcAppMeyer" folder in "funcAppMeyer" target */,
+			);
+			path = funcAppMeyer;
+			sourceTree = "<group>";
+		};
+		D3841CCC2C9B05CE00867749 /* funcAppMeyerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = funcAppMeyerTests;
+			sourceTree = "<group>";
+		};
+		D3841CD62C9B05CE00867749 /* funcAppMeyerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = funcAppMeyerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3841CAD2C9B05CC00867749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3841CC62C9B05CE00867749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3841CD02C9B05CE00867749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3841CA72C9B05CC00867749 = {
+			isa = PBXGroup;
+			children = (
+				D3841CB22C9B05CC00867749 /* funcAppMeyer */,
+				D3841CCC2C9B05CE00867749 /* funcAppMeyerTests */,
+				D3841CD62C9B05CE00867749 /* funcAppMeyerUITests */,
+				D3841CB12C9B05CC00867749 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3841CB12C9B05CC00867749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3841CB02C9B05CC00867749 /* funcAppMeyer.app */,
+				D3841CC92C9B05CE00867749 /* funcAppMeyerTests.xctest */,
+				D3841CD32C9B05CE00867749 /* funcAppMeyerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3841CAF2C9B05CC00867749 /* funcAppMeyer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3841CDC2C9B05CE00867749 /* Build configuration list for PBXNativeTarget "funcAppMeyer" */;
+			buildPhases = (
+				D3841CAC2C9B05CC00867749 /* Sources */,
+				D3841CAD2C9B05CC00867749 /* Frameworks */,
+				D3841CAE2C9B05CC00867749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D3841CB22C9B05CC00867749 /* funcAppMeyer */,
+			);
+			name = funcAppMeyer;
+			packageProductDependencies = (
+			);
+			productName = funcAppMeyer;
+			productReference = D3841CB02C9B05CC00867749 /* funcAppMeyer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3841CC82C9B05CE00867749 /* funcAppMeyerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3841CE12C9B05CE00867749 /* Build configuration list for PBXNativeTarget "funcAppMeyerTests" */;
+			buildPhases = (
+				D3841CC52C9B05CE00867749 /* Sources */,
+				D3841CC62C9B05CE00867749 /* Frameworks */,
+				D3841CC72C9B05CE00867749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3841CCB2C9B05CE00867749 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D3841CCC2C9B05CE00867749 /* funcAppMeyerTests */,
+			);
+			name = funcAppMeyerTests;
+			packageProductDependencies = (
+			);
+			productName = funcAppMeyerTests;
+			productReference = D3841CC92C9B05CE00867749 /* funcAppMeyerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3841CD22C9B05CE00867749 /* funcAppMeyerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3841CE42C9B05CE00867749 /* Build configuration list for PBXNativeTarget "funcAppMeyerUITests" */;
+			buildPhases = (
+				D3841CCF2C9B05CE00867749 /* Sources */,
+				D3841CD02C9B05CE00867749 /* Frameworks */,
+				D3841CD12C9B05CE00867749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3841CD52C9B05CE00867749 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D3841CD62C9B05CE00867749 /* funcAppMeyerUITests */,
+			);
+			name = funcAppMeyerUITests;
+			packageProductDependencies = (
+			);
+			productName = funcAppMeyerUITests;
+			productReference = D3841CD32C9B05CE00867749 /* funcAppMeyerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3841CA82C9B05CC00867749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					D3841CAF2C9B05CC00867749 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					D3841CC82C9B05CE00867749 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D3841CAF2C9B05CC00867749;
+					};
+					D3841CD22C9B05CE00867749 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D3841CAF2C9B05CC00867749;
+					};
+				};
+			};
+			buildConfigurationList = D3841CAB2C9B05CC00867749 /* Build configuration list for PBXProject "funcAppMeyer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3841CA72C9B05CC00867749;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D3841CB12C9B05CC00867749 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3841CAF2C9B05CC00867749 /* funcAppMeyer */,
+				D3841CC82C9B05CE00867749 /* funcAppMeyerTests */,
+				D3841CD22C9B05CE00867749 /* funcAppMeyerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3841CAE2C9B05CC00867749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3841CC72C9B05CE00867749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3841CD12C9B05CE00867749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3841CAC2C9B05CC00867749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3841CC52C9B05CE00867749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3841CCF2C9B05CE00867749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3841CCB2C9B05CE00867749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3841CAF2C9B05CC00867749 /* funcAppMeyer */;
+			targetProxy = D3841CCA2C9B05CE00867749 /* PBXContainerItemProxy */;
+		};
+		D3841CD52C9B05CE00867749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3841CAF2C9B05CC00867749 /* funcAppMeyer */;
+			targetProxy = D3841CD42C9B05CE00867749 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D3841CDD2C9B05CE00867749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RXF2VA5SU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = funcAppMeyer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.funcAppMeyer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3841CDE2C9B05CE00867749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RXF2VA5SU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = funcAppMeyer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.funcAppMeyer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3841CDF2C9B05CE00867749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3841CE02C9B05CE00867749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3841CE22C9B05CE00867749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RXF2VA5SU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.funcAppMeyerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/funcAppMeyer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/funcAppMeyer";
+			};
+			name = Debug;
+		};
+		D3841CE32C9B05CE00867749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RXF2VA5SU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.funcAppMeyerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/funcAppMeyer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/funcAppMeyer";
+			};
+			name = Release;
+		};
+		D3841CE52C9B05CE00867749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RXF2VA5SU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.funcAppMeyerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = funcAppMeyer;
+			};
+			name = Debug;
+		};
+		D3841CE62C9B05CE00867749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RXF2VA5SU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.funcAppMeyerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = funcAppMeyer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3841CAB2C9B05CC00867749 /* Build configuration list for PBXProject "funcAppMeyer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3841CDF2C9B05CE00867749 /* Debug */,
+				D3841CE02C9B05CE00867749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3841CDC2C9B05CE00867749 /* Build configuration list for PBXNativeTarget "funcAppMeyer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3841CDD2C9B05CE00867749 /* Debug */,
+				D3841CDE2C9B05CE00867749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3841CE12C9B05CE00867749 /* Build configuration list for PBXNativeTarget "funcAppMeyerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3841CE22C9B05CE00867749 /* Debug */,
+				D3841CE32C9B05CE00867749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3841CE42C9B05CE00867749 /* Build configuration list for PBXNativeTarget "funcAppMeyerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3841CE52C9B05CE00867749 /* Debug */,
+				D3841CE62C9B05CE00867749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3841CA82C9B05CC00867749 /* Project object */;
+}
